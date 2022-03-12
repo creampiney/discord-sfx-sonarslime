@@ -15,7 +15,7 @@ This bot will show sound effects which are added in server. Python is mainly use
     - [recover](#recover)
 
 ## Installation <a name="installation"></a>
-- Download [this project's zip file](https://github.com/creampiney/discord-sfx-sonarslime/blob/main/discord-sfx-sonarslime.zip), put all files in one folder.
+- Download [this project's zip file](https://github.com/creampiney/discord-sfx-sonarslime/blob/main/discord-sfx-sonarslime.zip?raw=true), put all files in one folder.
 - Create `config.json` in the same folder and write as the following: 
     ```json
     {"DISCORD_TOKEN":"<YOUR_BOT_TOKEN>"}
