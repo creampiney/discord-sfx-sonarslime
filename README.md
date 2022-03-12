@@ -7,6 +7,9 @@ This bot will show sound effects which are added in server. Python is mainly use
     - [Sound Effect Board](#sfx-board)
     - [Options Board](#option-board)
     - [Adding Sound Effect](#adding-sfx)
+    - [Deleting Sound Effects](#deleting-sfx)
+    - [Information of Sound Effect](#info-sfx)
+    - [Renaming Button](#rename-sfx)
 
 ## Installation <a name="installation"></a>
 - Download this project's files, put all files in one folder.
