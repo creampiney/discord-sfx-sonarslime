@@ -1,7 +1,10 @@
 # Discord SonarSlime Bot (Sound Effect Bot)
 This bot will show sound effects which are added in server. Python is mainly used in the project.
 
-### Installation
+## Table of Contents
+- [Installation](#Installation)
+
+## Installation <a name="installation"></a>
 - Download this project's files, put all files in one folder.
 - Create `config.json` in the same folder and write as the following: 
     ```json
