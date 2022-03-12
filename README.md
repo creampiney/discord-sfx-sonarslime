@@ -10,6 +10,9 @@ This bot will show sound effects which are added in server. Python is mainly use
     - [Deleting Sound Effects](#deleting-sfx)
     - [Information of Sound Effect](#info-sfx)
     - [Renaming Button](#rename-sfx)
+- [Database](#database)
+    - [buttonlist](#buttonlist)
+    - [recover](#recover)
 
 ## Installation <a name="installation"></a>
 - Download this project's files, put all files in one folder.
@@ -85,10 +88,10 @@ After you select the sound effect, type new button name for changing.
 
 To cancel the process, type `rename_exit` to leave the process.
 
-## Database
+## Database <a name="database"></a>
 The data of this bot mainly kept on files in `data` directory.
 
-### buttonlist
+### buttonlist <a name="buttonlist"></a>
 This directory will store data about buttons and sound effects in each server. One server will store in 1 file labelled `buttonlist<SERVER_ID>.sns`. In each of the files, the data will store in the format of 4 lines per 1 sound effect.
 
 Example:
@@ -99,7 +102,7 @@ SonarSlime                          # Adder
 2022-02-21 12:20:37.765271          # Date which was added
 ```
 
-### recovery
+### recover <a name="recover"></a>
 This directory will store data about deleted sound effects in each server. Every deleted sound effects will be store in this directory. One server will store in 1 file labelled `recover<SERVER_ID>.sns`. In each of the files, the data will store in the format of 4 lines per 1 sound effect.
 
 Example:
