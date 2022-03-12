@@ -67,7 +67,7 @@ When you choose the sound effects you want to delete, the button will change col
 
 ![Deleting SFXs](https://github.com/creampiney/discord-sfx-sonarslime/blob/main/pic/deleting-sfx.png)
 
-To deleted all selected soudn effects, click on the red button `Remove SFXs`. The selected sound effects (Effects with green buttons) will be deleted.
+To deleted all selected sound effects, click on the red button `Remove SFXs`. The selected sound effects (Effects with green buttons) will be deleted.
 
 ### Information of Sound Effect <a name="info-sfx"></a>
 Press the grey button labelled `Info` in options board. The bot will ask for sound effect you want to see the information.
@@ -84,3 +84,28 @@ Press the grey button labelled `Rename` in options board. The bot will ask for s
 After you select the sound effect, type new button name for changing.
 
 To cancel the process, type `rename_exit` to leave the process.
+
+## Database
+The data of this bot mainly kept on files in `data` directory.
+
+### buttonlist
+This directory will store data about buttons and sound effects in each server. One server will store in 1 file labelled `buttonlist<SERVER_ID>.sns`. In each of the files, the data will store in the format of 4 lines per 1 sound effect.
+
+Example:
+```
+Illuminati                          # Sound Effect Name (Button Name)
+sf_01                               # URL or file name (This will be prefixed with "sf_") -> This will be use as button's custom_id
+SonarSlime                          # Adder
+2022-02-21 12:20:37.765271          # Date which was added
+```
+
+### recovery
+This directory will store data about deleted sound effects in each server. Every deleted sound effects will be store in this directory. One server will store in 1 file labelled `recover<SERVER_ID>.sns`. In each of the files, the data will store in the format of 4 lines per 1 sound effect.
+
+Example:
+```
+Detective Conan                                         # Sound Effect Name (Button Name)
+sf_https://www.youtube.com/watch?v=RsyxFQ23Ezk          # URL or file name (This will be prefixed with "sf_")
+IcedAmericano                                           # Person who delete
+2022-03-04 15:36:25.472733                              # Date which was deleted
+```
