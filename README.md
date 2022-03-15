@@ -109,6 +109,6 @@ Example:
 ```
 Detective Conan                                         # Sound Effect Name (Button Name)
 sf_https://www.youtube.com/watch?v=RsyxFQ23Ezk          # URL or file name (This will be prefixed with "sf_")
-IcedAmericano                                           # Person who delete
+Piney                                                   # Person who delete
 2022-03-04 15:36:25.472733                              # Date which was deleted
 ```
