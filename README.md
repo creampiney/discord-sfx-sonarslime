@@ -20,7 +20,7 @@ This bot will show sound effects which are added in server. Python is mainly use
     ```json
     {"DISCORD_TOKEN":"<YOUR_BOT_TOKEN>"}
     ```
-    replace `<YOUR_BOT_TOKEN>` with your bot's token id from discord developer portal.
+    replace `<YOUR_BOT_TOKEN>` with your bot's token id from [discord developer portal](https://discord.com/developers).
 - Install python and related packages/libraries which are labelled in `requirements.txt`
 - Run `bot.py`, don't forget to invite your bot in your server.
 
